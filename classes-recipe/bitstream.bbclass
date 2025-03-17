@@ -1,3 +1,7 @@
+SUMMARY = "Generate bitstream using bootgen tool"
+DESCRIPTION = "Manages appending .dtsi files to bitstream and compiles resulting bitstream using bootgen tool."
+
+
 # XSA file (must be in ${WORKDIR}) containing bitstream
 XSCTH_HDF = "${BITSTREAM_HDF_FILE}"
 

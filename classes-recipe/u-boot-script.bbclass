@@ -4,6 +4,9 @@
 
 # Following architecture deduction comes from poky/meta/classes-recipe/kernel-arch.bbclass
 
+SUMMARY = "U-boot script generation"
+DESCRIPTION = "Generate u-boot scripts from .cmd files"
+
 valid_archs = "alpha cris ia64 \
                i386 x86 \
                m68knommu m68k ppc powerpc powerpc64 ppc64  \

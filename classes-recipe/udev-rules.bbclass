@@ -1,3 +1,7 @@
+SUMMARY = "Install udev rules"
+DESCRIPTION = "Install udev rules to image"
+
+
 RDEPENDS:${PN} += " bash"
 
 do_install() {
