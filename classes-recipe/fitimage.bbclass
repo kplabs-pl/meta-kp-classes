@@ -41,6 +41,9 @@
 #    FITIMAGE_KEY_FILE ?= "development-1.key.pem"
 #    FITIMAGE_CERT_FILE ?= "development-1.cert.pem"
 
+SUMMARY = "FitImage generation"
+DESCRIPTION = "Generate a signed FIT image from the provided artifacts"
+
 LICENSE = "MIT"
 inherit deploy
 
