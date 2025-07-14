@@ -8,6 +8,7 @@ This layer provides common bitbake files used in KP Labs' Yocto layers.
 - `bitstream.bbclass` - generate bitstream with possibility to append additional .dtsi files
 - `bootbin.bbclass` - generate bootbin image
 - `fitimage.bbclass` - generate a signed FIT image
+- `kp-gitlab-asset.bbclass` - generate URL to KP Labs' GitLab server to download the asset
 - `u-boot-script.bbclass` - generate U-Boot scripts from .cmd files
 - `udev-rules.bbclass` - install udev rules to image
 
