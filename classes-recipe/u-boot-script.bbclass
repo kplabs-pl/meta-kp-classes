@@ -71,9 +71,9 @@ do_compile() {
 
 do_deploy() {
     cd "${B}"
-    mkdir -p "${DEPLOYDIR}/u-boot-scripts/${PN}"
+    mkdir -p "${DEPLOYDIR}/${PN}"
     for script in `ls *.scr`; do
-        install -m 0644 "${B}/$script" ${DEPLOYDIR}/u-boot-scripts/${PN}
+        install -m 0644 "${B}/$script" ${DEPLOYDIR}/${PN}
     done
 }
 
