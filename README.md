@@ -11,6 +11,7 @@ This layer provides common bitbake files used in KP Labs' Yocto layers.
 - `kp-gitlab-asset.bbclass` - generate URL to KP Labs' GitLab server to download the asset
 - `u-boot-script.bbclass` - generate U-Boot scripts from .cmd files
 - `udev-rules.bbclass` - install udev rules to image
+- `verify-binary-version.bbclass` - verify version embedded in binary files
 
 
 ## Available distros
