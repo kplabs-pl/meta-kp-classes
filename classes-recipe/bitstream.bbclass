@@ -31,7 +31,7 @@ B = "${WORKDIR}/build"
 
 XSCTH_BUILD_CONFIG ?= 'Release'
 
-XSCTH_SCRIPT = "${WORKDIR}/generate_dt_overlay_for_bitstream.tcl"
+XSCTH_SCRIPT = "${KP_XLNX_SCRIPTS_DIR}/generate_dt_overlay_for_bitstream.tcl"
 XSCTH_PROC_IP = "psu_cortexa53_0"
 YAML_ENABLE_DT_OVERLAY = "1"
 YAML_FIRMWARE_NAME = "${BITSTREAM_NAME}/bitstream.bit"
